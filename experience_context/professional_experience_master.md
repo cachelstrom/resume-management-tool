@@ -1,8 +1,8 @@
 # Professional Experience Context — Master
 
-This file consolidates the seven original role-context files and reviewed historical-resume details. Sections are named after their source filenames. Original wording, placeholders, and unconfirmed details remain where they have not been resolved; this file is a source of experience context, not a resume. Resolve remaining placeholders and verify claims before using them in a resume.
+This file is the single source of truth for professional experience context. It includes role details and relevant historical-resume claims; placeholders and unconfirmed details remain explicitly unresolved. This is a source of experience context, not a resume. Resolve placeholders and verify claims before using them in a resume.
 
-## cloud_engineer.md
+## Cloud Engineer
 
 **Company:** U.S. Bank  
 **Duration:** 2023–Present  
@@ -21,7 +21,7 @@ This file consolidates the seven original role-context files and reviewed histor
 
 - AWS, Azure, Terraform, EC2, S3, RDS, DynamoDB, VPC, Route 53, PrivateLink, CloudWatch, EventBridge, SNS, Docker, Kubernetes, Spinnaker, boto3, Terratest, and GitHub Actions.
 
-## cloud_engineer_masters.md
+## Cloud Engineer (Master's Project)
 
 **Company:** Capella University (Master's Information Technology)  
 **Duration:** 2022–2023  
@@ -35,28 +35,7 @@ This file consolidates the seven original role-context files and reviewed histor
 
 - Completed coursework projects involving S3 cross-region replication; a highly available EC2/VPC website with S3 static assets, an Application Load Balancer, Auto Scaling, and network ACLs; cross-region replication and archiving with EC2 and a VPC-enabled Lambda function using a secure tunnel; IAM policies for secure S3 access; and EC2 health checks using EventBridge and Route 53 network monitoring.
 
-## data_analyst.md
-
-**Company:** U.S. Bank  
-**Duration:** MM/YYYY-MM/YYYY  
-**Title Tags:** `Data Entry`, `Analyst`, `HR Administrator`
-
-•  Executing change control by refining processes regarding internal terminations in the Workday system.
-•  Trained managers and end-users to adhere to systems and data entry practices.
-•  Resolved 500+ ServiceNow tickets, in FY '21, that required in-depth data trouble shooting. 
-•  Analysis and event auditing of termination records. Restricting access in isolated urgent instances.
-•  As a result of in-depth report analysis, I identified an error in a published business process that resulted in the correction of 90+ termination records. (the results of the impact on payroll saved is pending)
-•  A time-sensitive, Ad-Hoc mass data correction was tasked to our team. The report developed as guidance for us included 500+ instances that required individual analysis before action was taken. My review and correction to the fields and attributes to the report resulted in an instant deduction of ~400 instances; leaving only 146 instances that required action from the team.
-
-•  Close contribution to the migration from PeopleSoft to Workday for the entirety of U.S. Bank.
-•  Owned the task, along with two others, of validating 100% of internal data queries in PeopleSoft that were made at the launch of Workday. This mass data validation was to ensure all data successfully migrated over to Workday from PeopleSoft.
-•  Daily Taleo and Peoplesoft query analysis and entry for the company as a whole.
-•  Adhering to data management business processes to ensure that sensitive personal data is safeguarded when analyzing and editing internal employee information.
-•  Workday report development. This includes scheduling/ automating reports, ad hoc reports, express reports.
-•  Managing Workday report security.
-•  ServiceNow: case management, ticketing, case/ task generation, case resolution.
-
-## linux_admin.md
+## Linux Administrator
 
 **Company:** U.S. Bank  
 **Duration:** 06/2021-07/2022  
@@ -89,7 +68,7 @@ In addition to my IAM Linux Admin role on the Unix / Linux Provisioning team, I 
 
 • Design and manage automation repositories in GitLab for the Unix Team.
 
-## senior_integration_engineer.md
+## Senior Integration Engineer
 
 **Company:** U.S. Bank  
 **Duration:** 03/2024-03/2026  
@@ -108,7 +87,7 @@ In addition to my IAM Linux Admin role on the Unix / Linux Provisioning team, I 
 - Built and maintained security automation API suites for Active Directory, HashiCorp Vault, CMDB and other databases, SailPoint IIQ, CyberArk, and related platforms; collaborated with application teams on API-integrated security designs.
 - Owned customer onboarding and integration for IAM automation APIs using JSON-based least-privilege policies, with read/write operations across SailPoint IIQ, Active Directory, CyberArk PAM, Vault, SQL databases, and RHEL virtual machines.
 
-## senior_software_engineer.md
+## Senior Software Engineer
 
 **Company:** U.S. Bank  
 **Duration:** 03/2026-Present  
@@ -129,7 +108,7 @@ In addition to my IAM Linux Admin role on the Unix / Linux Provisioning team, I 
 - Built structured YAML inventories, a domain glossary, per-agent tool preferences, and operational retrospectives for people and agents. Added Datadog/PagerDuty visibility into service status, incidents, and on-call schedules.
 - Reduced ticket-triage effort by checking Definition of Ready requirements, resolving account/service identifiers, and generating structured assessments and clarifying questions; no measured reduction amount is available.
 
-## software_engineer.md
+## Software Engineer
 
 **Company:** U.S. Bank  
 **Duration:** 2022-03/2024  

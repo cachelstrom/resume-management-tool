@@ -1,6 +1,13 @@
 # Resume Content Workspace
 
-This workspace contains consolidated role context in `experience_context/professional_experience_master.md`, a controlled skills inventory in `experience_context/tools-technologies_master-list.md`, an unverified historical-resume review draft in `experience_context/historical_resume_review.md`, and a baseline resume in `resumes/baseline_resumes/Caleb_Chelstrom_Platform_Eng_2026.md`. Use the baseline as a starting point for structure and previously used phrasing; use the consolidated experience master as the factual source for role details.
+This workspace contains the single source of truth for professional experience context in `experience_context/professional_experience_master.md`, a controlled skills inventory in `experience_context/tools-technologies_master-list.md`, an unverified historical-resume review draft in `resumes/historical/historical_resume_review.md`, and a baseline resume in `resumes/baseline_resumes/Caleb_Chelstrom_Platform_Eng_2026.md`. Use the baseline as a starting point for structure and previously used phrasing; use the experience master as the factual source for role details. The historical review is only a set of unverified leads, not an alternate source of truth.
+
+## How to use the AI guidance files
+
+- Follow this `copilot-instructions.md` file as the workspace-wide rules for resume and experience-content work.
+- Use `.github/agents/resume-writer.agent.md` for drafting, tailoring, or reviewing resume content. It defines the source-review workflow, accuracy guardrails, and evidence-based response format.
+- Use `.github/prompts/tailor-resume.prompt.md` to start tailoring for a specific opportunity. Fill in the target role, full job description, and requested content; it directs the Resume Writer agent to apply the workflow and return a draft, evidence map, and focused questions.
+- Treat the agent and prompt as task-specific workflows that operate under these workspace-wide instructions. Neither replaces the experience master as the source for role facts.
 
 ## Accuracy and integrity
 

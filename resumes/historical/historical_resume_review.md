@@ -1,8 +1,8 @@
 # Historical Resume Content — Review Draft
 
-> **Temporary accuracy-review file; not a resume.** This is an inventory of claims and details found in historical resumes, organized for later review and migration into the existing experience-context files. Nothing here has been independently verified. Confirm facts, dates, titles, scope, tools, and metrics before moving them into the source files. Where versions disagree, both versions are retained below rather than reconciled.
+> **Temporary accuracy-review file; not a resume or source of truth.** This is an inventory of claims and details found in historical resumes, organized for review against the professional experience master. Nothing here has been independently verified. Confirm facts, dates, titles, scope, tools, and metrics before adding them to the master. Where versions disagree, both versions are retained below rather than reconciled.
 
-## cloud_engineer.md
+## Cloud Engineer
 
 ### Cloud engineering work described in resumes
 
@@ -16,7 +16,7 @@
 - **Additional cloud skills named across resumes:** AWS, Azure, Terraform, EC2, S3, RDS, DynamoDB (also written “Dynamo DB”), VPC, Route 53, PrivateLink, CloudWatch, EventBridge, SNS, Docker, Kubernetes, Spinnaker, boto3, Terratest, and GitHub Actions. These are resume-wide skill claims and are not all tied to a specific position in every version. [2026 resume](../resumes/historical/Caleb_Chelstrom_2026.docx) · [2026 platform resume](../resumes/historical/Caleb_Chelstrom_Platform_Eng_2026.docx) · [2026 resume PDF](../resumes/historical/Caleb_Chelstrom_Resume_2026.pdf)
 
 
-## cloud_engineer_masters.md
+## Cloud Engineer (Master's Project)
 
 ### Capella University consulting project
 
@@ -35,14 +35,14 @@ The resumes list these as Master's coursework projects from 2021–2023; confirm
 - IAM policies for secure S3 bucket access.
 - EC2 health checks using EventBridge and Route 53 network monitoring. [2026 resume](../resumes/historical/Caleb_Chelstrom_2026.docx) · [2026 resume PDF](../resumes/historical/Caleb_Chelstrom_Resume_2026.pdf)
 
-### Other resume details to route outside these seven role files
+### Other resume details outside the role sections
 
 - **Education listed:** M.S. in Information Technology, Enterprise Networks & Cloud Computing, Capella University (2021–2023 or awarded 2023); B.B.A., University of Northwestern - St. Paul (2015–2019 or awarded 2019). Verify official degree names and dates. [2026 resume](../resumes/historical/Caleb_Chelstrom_2026.docx) · [2024 resume](../resumes/historical/Caleb_Chelstrom_Resume_2024.docx)
 - **Certifications listed:** Software Security Practitioner (SSP), 2021; Microsoft Certified: Azure Fundamentals, 2021; Microsoft Certified: Azure Data Fundamentals, 2022. Verify current status and exact credential names. [2026 resume](../resumes/historical/Caleb_Chelstrom_2026.docx)
 - **Military service listed:** U.S. Army, 2013–2019; role titles vary among Artilleryman, Joint Fire Support Specialist, and Fire Support Specialist. Some versions give September 2013–September 2019; another lists Anoka, MN, while others say United States. Verify official title, dates, location, and preferred description before reuse. [2026 resume](../resumes/historical/Caleb_Chelstrom_2026.docx) · [2024 resume](../resumes/historical/Caleb_Chelstrom_Resume_2024.docx) · [2024 draft](../resumes/historical/Caleb_Chelstrom_Resume_2024_DRAFT.docx)
 
 
-## linux_admin.md
+## Linux Administrator
 
 ### U.S. Bank Unix/Linux and IAM work
 
@@ -54,7 +54,7 @@ The resumes list these as Master's coursework projects from 2021–2023; confirm
 - Semi-automated IAM provisioning across Active Directory, CyberArk, and Unix/Linux servers using PowerShell; one version also names Python. The resume claims 90% less manual workload. Some versions also cite LDAP and SAML compliance. Verify tools, measured reduction, and compliance wording. [2026 resume](../resumes/historical/Caleb_Chelstrom_2026.docx) · [2024 resume](../resumes/historical/Caleb_Chelstrom_Resume_2024.docx)
 - Other descriptions mention collaboration with application and database teams using Agile methods and improving system access management across server platforms. [2024 resume](../resumes/historical/Caleb_Chelstrom_Resume_2024.docx)
 
-## senior_integration_engineer.md
+## Senior Integration Engineer
 
 ### U.S. Bank integration and secrets-management work
 
@@ -70,7 +70,7 @@ The resumes list these as Master's coursework projects from 2021–2023; confirm
 - One resume describes consultation on internal best practices outside the immediate security-operations scope, including certificate authority and key management. [2026 resume PDF](../resumes/historical/Caleb_Chelstrom_Resume.pdf)
 - Other integration claims in earlier targeted versions: cross-functional Agile delivery said to improve timelines by 30%; Jenkins/Docker CI/CD adoption said to reduce deployment errors by 40%. These figures appear in some versions but not the later resume set; confirm measurement and attribution before reuse. [2024 resume](../resumes/historical/Caleb_Chelstrom_Resume_2024.docx) · [2024 draft](../resumes/historical/Caleb_Chelstrom_Resume_2024_DRAFT.docx)
 
-## senior_software_engineer.md
+## Senior Software Engineer
 
 ### AI-enabled engineering and platform work
 
@@ -103,7 +103,7 @@ These appeared in summaries, target titles, or skill lists across multiple resum
 - IAM/security/operations: HashiCorp Vault, CyberArk, SailPoint IIQ, Active Directory, LDAP, RHEL, IAM, RBAC, EBAC, PBAC, SSO, OAuth, OIDC, SAML, secrets management, least privilege, ServiceNow, and Splunk.
 - Observability and methods: Grafana, Prometheus, Datadog, PagerDuty, Jira, Git/Git Bash/GitHub, Git hooks, version control, solution architecture, technical and enterprise solution design, software project management, process-flow diagrams, Agile, secure SDLC, security operations engineering, and operations engineering. [2026 resume](../resumes/historical/Caleb_Chelstrom_2026.docx) · [2026 platform resume](../resumes/historical/Caleb_Chelstrom_Platform_Eng_2026.docx) · [2024 resume](../resumes/historical/Caleb_Chelstrom_Resume_2024.docx) · [CyberArk-targeted resume](../resumes/historical/Caleb_Chelstrom_Resume_CyberArk.docx)
 
-## software_engineer.md
+## Software Engineer
 
 ### U.S. Bank security automation / software work
 

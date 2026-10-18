@@ -5,6 +5,8 @@ agent: "Resume Writer"
 argument-hint: "Paste the job description and specify the target role and resume section or format."
 ---
 
+Use this prompt to start a targeted resume-tailoring task. Provide the role, full job description, and requested resume content below; follow `.github/copilot-instructions.md` and the `.github/agents/resume-writer.agent.md` workflow and guardrails.
+
 Tailor my resume content to the role described below. Follow the project instructions and the Resume Writer agent's accuracy and evidence requirements.
 
 ## Target role
@@ -19,7 +21,7 @@ ${input:jobDescription:Paste the full job description}
 
 ${input:requestedContent:For example, a professional summary and 4-6 experience bullets; mention any length or format constraints}
 
-Use `resumes/baseline_resumes/Caleb_Chelstrom_Platform_Eng_2026.md` as a starting point, then read `experience_context/professional_experience_master.md`, `experience_context/tools-technologies_master-list.md`, and the relevant role sections to verify claims and find the strongest evidence for this specific role. Do not combine distinct jobs or invent missing details. Treat claims present only in the baseline as unverified, and flag any conflicts for confirmation. The `experience_context/historical_resume_review.md` file is pending my accuracy review; do not use claims from it as facts unless I confirm them.
+Use `resumes/baseline_resumes/Caleb_Chelstrom_Platform_Eng_2026.md` as a starting point, then read `experience_context/professional_experience_master.md`, `experience_context/tools-technologies_master-list.md`, and the relevant role sections to verify claims and find the strongest evidence for this specific role. Do not combine distinct jobs or invent missing details. Treat claims present only in the baseline as unverified, and flag any conflicts for confirmation. The `resumes/historical/historical_resume_review.md` file is pending my accuracy review; do not use claims from it as facts unless I confirm them.
 
 If you include a `## Core Skills` section, use only a concise, job-relevant subset of **Resume-Approved Skills — Use for Core Skills** in the master list. Ignore **Reference-Only Skills — Do NOT Use for Core Skills** for that section unless I explicitly approve and move a skill to the approved section. Verify any experience bullet against the relevant role notes; the master list alone is not evidence.
 
