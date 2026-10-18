@@ -26,7 +26,8 @@ Army veteran and senior security platform engineer with 7+ years spanning IAM op
 #### AI-Enabled Automation & Security Platform Engineering
 
 - Designed and built a production multi-agent AI assistant that automates full-lifecycle Jira/Confluence operations, context-aware documentation management, and end-to-end IAM, DevOps, and cloud infrastructure workflows across 226+ repositories with human-in-the-loop approval gates.
-- Conceived, architected, and led delivery of an enterprise security operations platform serving as the central workspace for Security Access Operations automation, reporting, governance, and operational enablement.
+- Built robust OpenTelemetry (OTel) metrics collection for the multi-agent AI assistant, tracking service usage, efficiency, accuracy, and effectiveness.
+- Conceived, architected, and led delivery of an enterprise security operations platform with a React frontend, serving as the central workspace for Security Access Operations automation, reporting, governance, and operational enablement.
 - Designed a scalable automation framework supporting reusable workflows, event-driven processing, scheduled execution, and API-based integrations across IAM and security operations functions.
 - Implemented CI/CD pipelines, containerization standards, and secure development practices meeting enterprise deployment and audit requirements.
 - Defined platform strategy, architecture, governance controls, and operating model while aligning requirements across engineering, operations, and leadership stakeholders.

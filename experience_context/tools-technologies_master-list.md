@@ -129,6 +129,7 @@ These additional terms appear in experience notes or historical resume variants 
 
 ### Enterprise systems, engineering tools & domain terms
 
+- OpenTelemetry (OTel)
 - Git Bash
 - Version control
 - Workday
