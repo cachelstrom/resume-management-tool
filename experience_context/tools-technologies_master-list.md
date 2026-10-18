@@ -38,6 +38,19 @@ Use this section as the **only source** for populating a resume's `## Core Skill
 - Amazon DynamoDB
 - Amazon RDS
 - Amazon Bedrock
+- AWS SDK for Python (boto3)
+- Terraform Enterprise
+- AWS Certificate Manager (ACM)
+- AWS Lambda
+- Application Load Balancer (ALB)
+- Network ACLs (NACLs)
+- Security groups
+- VPC endpoints
+
+### Identity, Protocols & Security Products
+
+- OpenID Connect (OIDC)
+- Single Sign-On (SSO)
 
 ### Programming, APIs & Data
 
@@ -45,6 +58,8 @@ Use this section as the **only source** for populating a resume's `## Core Skill
 - Go
 - TypeScript
 - PowerShell
+- OpenAPI
+- React
 - PostgreSQL
 - MySQL
 - REST APIs
@@ -72,16 +87,28 @@ Use this section as the **only source** for populating a resume's `## Core Skill
 - Datadog
 - PagerDuty
 - ServiceNow
+- OpenTelemetry (OTel)
+
+### Engineering Tools & Platforms
+
+- Confluence
+- GitHub Enterprise
+- Git hooks
+- Kiro
+- Claude Code
+- Git Bash
+- Model Context Protocol (MCP) servers
 
 ### Architecture & Practice
 
 - Solution architecture
+- Enterprise solution design
 - Platform engineering
 - Secure SDLC
 - Agile
 - Jira
 
-> This initial allowlist is based on the `Core Skills` section of [the current baseline resume](../resumes/baseline_resumes/Caleb_Chelstrom_Platform_Eng_2026.md), with minor normalization of product names (for example, “Dynamo DB” to “DynamoDB”). Its presence here allows a skill to be considered for the Core Skills section; it does not prove proficiency, replace experience evidence, or mean it belongs in every tailored resume. Update this list deliberately when approving or removing skills.
+> The initial allowlist was based on the `Core Skills` section of [the current baseline resume](../resumes/baseline_resumes/Caleb_Chelstrom_Platform_Eng_2026.md), with minor normalization of product names (for example, “Dynamo DB” to “DynamoDB”); additional terms have since been approved by the user. Presence here allows a skill to be considered for the Core Skills section; it does not prove proficiency, replace experience evidence, or mean it belongs in every tailored resume. Update this list deliberately when approving or removing skills.
 
 ## Reference-Only Skills — Do NOT Use for Core Skills
 
@@ -90,12 +117,10 @@ These additional terms appear in experience notes or historical resume variants 
 ### Programming, frameworks & interfaces
 
 - Object-oriented programming
-- OpenAPI
 - Flask
 - Django
 - Visual Basic (VB)
 - Visual Basic for Applications (VBA)
-- React
 - PHP
 - Java
 - cURL
@@ -103,25 +128,15 @@ These additional terms appear in experience notes or historical resume variants 
 
 ### Cloud services, delivery & infrastructure details
 
-- AWS SDK for Python (boto3)
 - Spinnaker
-- Terraform Enterprise
-- AWS Certificate Manager (ACM)
-- AWS Lambda
-- Application Load Balancer (ALB)
 - Auto Scaling
-- Network ACLs (NACLs)
-- Security groups
-- VPC endpoints
 - S3 cross-region replication
 - Secure tunnels
 
 ### Identity, protocols & security products
 
 - OAuth
-- OpenID Connect (OIDC)
 - Security Assertion Markup Language (SAML)
-- Single Sign-On (SSO)
 - PingFederate
 - AD FS
 - Open Identity Manager (OIM)
@@ -129,31 +144,19 @@ These additional terms appear in experience notes or historical resume variants 
 
 ### Enterprise systems, engineering tools & domain terms
 
-- OpenTelemetry (OTel)
-- Git Bash
 - Version control
 - Workday
 - PeopleSoft
 - Taleo
-- Confluence
-- Model Context Protocol (MCP) servers
-- GitHub Enterprise
-- Git hooks
 - Service registry
 - Infrastructure graph
 - Microsoft Teams
-- Kiro
-- Claude Code
 - Data engineering
 - Process-flow diagrams
 - Technical solution design
 - Software project management
 - Security operations engineering
 - Operations engineering
-
-### Architecture & practice
-
-- Enterprise solution design
 
 > This section is a holding area, not a rejection of the underlying experience. It includes skills named in historical resumes and tools or systems described in role notes. Confirm each item and promote it by moving it to the approved section if it should be eligible for future Core Skills sections. Remove items that are inaccurate or no longer relevant.
 
