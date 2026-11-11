@@ -6,14 +6,14 @@ Anoka, MN | cachelstrom@gmail.com
 
 ## Professional Summary
 
-Army veteran and senior security platform engineer with experience spanning IAM operations, security automation, and enterprise cloud engineering. Designed and built AI-enabled engineering tools, automation platforms, HashiCorp Vault integrations, and AWS infrastructure. Focused on secure, scalable, least-privilege systems using Python, Terraform, and CI/CD, and self-service automation that shifts operational work left.
+Army veteran and senior security platform engineer with experience spanning IAM operations, security automation, DevOps, and enterprise cloud engineering. Designed and built AI-enabled engineering tools, automation platforms, HashiCorp Vault integrations, and AWS delivery solutions. Focused on secure, scalable, least-privilege systems and self-service automation, with hands-on work in various languages, Terraform, Docker, Kubernetes, and CI/CD.
 
 ## Core Skills
 
 - **Security & IAM:** HashiCorp Vault Enterprise, CyberArk PAM, SailPoint IIQ, Active Directory/LDAP, IAM, RBAC, PBAC, EBAC, secrets management, least-privilege policy design
 - **Cloud & Infrastructure:** AWS, Azure, Terraform, Kubernetes, Docker, Rancher, RHEL, VPC, Route 53/PrivateLink, CloudWatch/EventBridge, SNS, S3, EC2, DynamoDB, RDS, Bedrock
-- **Programming:** Python, Go, TypeScript, PowerShell, PostgreSQL, MySQL, REST APIs, Swagger, Postman, FastAPI, Svelte
-- **DevSecOps & Automation:** GitLab CI/CD, GitHub Actions, Jenkins, Ansible, Terratest, Git, Apache Airflow, Hatchet
+- **Programming:** Python, Go, TypeScript, React, PowerShell, PostgreSQL, MySQL, REST APIs, Swagger, Postman, FastAPI, Svelte
+- **DevOps:** GitLab CI/CD, GitHub Actions, Helm, Jenkins, Ansible, Terratest, Git, Apache Airflow, Hatchet
 - **Observability & ITSM:** Splunk, Grafana, Prometheus, Datadog, PagerDuty, ServiceNow
 - **Architecture & Practice:** Solution architecture, platform engineering, secure SDLC, Agile, Jira
 
@@ -28,8 +28,9 @@ Army veteran and senior security platform engineer with experience spanning IAM 
 - Designed and built a multi-agent AI assistant for Cloud Automation Engineering that automates Jira ticket triage, documentation retrieval, IAM engineering, and operational workflows, with repository discovery across 226+ repositories and human approval for write actions.
 - Built robust OpenTelemetry (OTel) metrics collection for the multi-agent AI assistant, tracking service usage, efficiency, accuracy, and effectiveness.
 - Led development of an enterprise security-operations platform for automation, reporting, governance, and operational enablement, with a React frontend.
+- Owned application-level deployment and operations for the platform on Kubernetes, including Helm releases, manifests, application configuration, security and access setup, and troubleshooting.
 - Designed a scalable automation framework supporting reusable workflows, event-driven processing, scheduled execution, and API-based integrations across IAM and security operations functions.
-- Established CI/CD, containerization, and secure development practices.
+- Established CI/CD, containerization, and secure development practices for the enterprise security-operations platform.
 - Defined platform strategy, architecture, governance controls, and operating model while aligning requirements across engineering, operations, and leadership stakeholders.
 
 #### HashiCorp Vault & IAM Automation
@@ -43,7 +44,7 @@ Army veteran and senior security platform engineer with experience spanning IAM 
 #### Cloud Security & Reliability Engineering
 
 - Built AWS quota monitoring across 2,100+ service quotas in 18+ accounts using DynamoDB-backed stateful alerting. Reduced PagerDuty events from 1.12 million published events to 37 actionable incidents, cutting alert noise by more than 99% and helping prevent quota-driven outages.
-- Built a continuous-delivery solution (Python, boto3, Docker, Spinnaker, Kubernetes) provisioning least-privilege IAM users via a Terraform module, reaching 32,000+ total and 1,024 weekly downloads by application teams.
+- Built a reusable IAM-user provisioning and continuous-delivery solution using Python/boto3, Docker, Spinnaker, Kubernetes, and Terraform. The module recorded 32,000+ total downloads and 1,024 weekly downloads by application teams.
 - Engineered multi-region observability for critical NAT infrastructure across Development, QA, and Production using Terraform, CloudWatch/EventBridge, and SNS-to-PagerDuty alerting, providing 100% visibility and incident-response coverage.
 - Implemented Go/Terratest checks in GitHub Actions to verify IAM-user creation, metadata, and security controls.
 - Provisioned secure cross-account connectivity (Route 53 private zones, VPC endpoints, PrivateLink) and hardened network posture via IaC-managed NACLs and security groups.
